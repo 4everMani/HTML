@@ -1,0 +1,141 @@
+
+
+1. `<header>`:
+   Meaning: Represents the introductory content of a section or page, typically containing a logo, navigation menu, and sometimes a page heading.
+   Example:
+   ```html
+   <header>
+     <h1>My Website</h1>
+     <nav>
+       <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Contact</a></li>
+       </ul>
+     </nav>
+   </header>
+   ```
+
+2. `<nav>`:
+   Meaning: Represents a section of navigation links.
+   Example:
+   ```html
+   <nav>
+     <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">Products</a></li>
+       <li><a href="#">Services</a></li>
+     </ul>
+   </nav>
+   ```
+
+3. `<main>`:
+   Meaning: Represents the main content of the document, excluding headers, footers, and sidebars.
+   Example:
+   ```html
+   <main>
+     <article>
+       <h2>Article Title</h2>
+       <p>Article content goes here...</p>
+     </article>
+   </main>
+   ```
+
+4. `<article>`:
+   Meaning: Represents a self-contained piece of content that could be distributed and reused independently, such as blog posts, news articles, or forum posts.
+   Example:
+   ```html
+   <article>
+     <h2>Article Title</h2>
+     <p>Article content goes here...</p>
+   </article>
+   ```
+
+5. `<section>`:
+   Meaning: Represents a thematic grouping of content.
+   Example:
+   ```html
+   <section>
+     <h2>Section Title</h2>
+     <p>Section content goes here...</p>
+   </section>
+   ```
+
+6. `<aside>`:
+   Meaning: Represents content that is tangentially related to the content around it, such as sidebars or call-out boxes.
+   Example:
+   ```html
+   <aside>
+     <h3>Related Links</h3>
+     <ul>
+       <li><a href="#">Link 1</a></li>
+       <li><a href="#">Link 2</a></li>
+     </ul>
+   </aside>
+   ```
+
+7. `<footer>`:
+   Meaning: Represents the footer of a section or page, typically containing copyright information, links to legal documents, contact details, etc.
+   Example:
+   ```html
+   <footer>
+     <p>&copy; 2023 My Website. All rights reserved.</p>
+   </footer>
+   ```
+
+8. `<figure>`:
+   Meaning: Represents any content that is referenced from the main content, such as images, videos, or graphs.
+   Example:
+   ```html
+   <figure>
+     <img src="example.jpg" alt="Example Image">
+     <figcaption>This is an example image</figcaption>
+   </figure>
+   ```
+
+9. `<figcaption>`:
+   Meaning: Represents a caption or legend for a `<figure>` element.
+   Example:
+   ```html
+   <figure>
+     <img src="example.jpg" alt="Example Image">
+     <figcaption>This is an example image</figcaption>
+   </figure>
+   ```
+
+10. `<time>`:
+    Meaning: Represents a specific time or a range of time.
+    Example:
+   ```html
+   <p>Meeting time: <time datetime="2023-07-30T15:00">3:00 PM</time></p>
+   ```
+
+11. `<address>`:
+    Meaning: Represents the contact information for the author or owner of a document/article.
+    Example:
+   ```html
+   <address>
+     <p>123 Main Street, City, Country</p>
+     <p>Email: info@example.com</p>
+   </address>
+   ```
+
+12. `<blockquote>`:
+    Meaning: Represents a quoted section of content.
+    Example:
+   ```html
+   <blockquote>
+     <p>"Be yourself; everyone else is already taken." - Oscar Wilde</p>
+   </blockquote>
+   ```
+
+13. `<cite>`:
+    Meaning: Represents the title of a work cited, such as the name of a book, article, or song.
+    Example:
+   ```html
+   <blockquote>
+     <p>"Be yourself; everyone else is already taken." - <cite>Oscar Wilde</cite></p>
+   </blockquote>
+   ```
+
+By using these semantic elements correctly and combining them appropriately, you can create well-structured, accessible, and SEO-friendly web pages, enhancing the overall user experience and making your code more maintainable and readable.
