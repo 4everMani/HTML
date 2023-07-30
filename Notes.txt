@@ -1,0 +1,18 @@
+1) <b> tag will make text bold only, browser make text inside <strong> bold and it shows importance and ergency.
+so using strong tag make more sense.  
+
+2) <sub> tag is used to create a subscript like H2O.
+
+3) Always remeber we do not create styling using HTML, We arrange content of page using HTML, so it becomes important to use right tag for right purpose. 
+For example effect of <del> tag can be easily achieved using css, but it makes HTML code more readable. 
+
+4) A "citation" is the way you tell your readers that certain material in your work came from another source. It also gives your readers the information necessary to find that source again, including:
+
+* information about the author
+* the title of the work
+* the name and location of the company that published your copy of the source
+* the date your copy was published
+* the page numbers of the material you are borrowing
+
+5) The <iframe> HTML element represents a nested browsing context, embedding another HTML page into the current one.
+
